@@ -58,8 +58,12 @@ import math
 # The sum of the squares of the two smallest integers
 # must equal the square of the largest number to be validated.
 # def is_triplet(x, y, z):
-#     if (x^2) + (y^2) == (z^2) or (x^2) + (z^2) == (y^2) or (y^2) + (z^2) == (x^2):
-#         print("True")
+#     if (x^2) + (y^2) == (z^2):
+#         print("Сумма квадратов x и y равна квадрату z")
+#     elif (x^2) + (z^2) == (y^2):
+#         print("Сумма квадратов x и z равна квадрату y")
+#     elif (y^2) + (z^2) == (x^2):
+#         print("Сумма квадратов y и z равна квадрату x")
 #     else:
-#         print("False")
-# is_triplet(x=int(input(print("Enter a"))), y=int(input(print("Enter b"))), z=int(input(print("Enter c"))))
+#         print("Ошибка")
+# is_triplet(x=int(input(print("Enter x"))), y=int(input(print("Enter y"))), z=int(input(print("Enter z"))))
